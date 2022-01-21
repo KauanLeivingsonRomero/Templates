@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+
+  color: white;
+}
+
+body {
+  background-color: rgba(22, 11, 51, 0.822);
+}
+
+.main_content {
+  text-align: center;
+}
+
+#login {
+  color: #fff;
+
+  padding: 30px;
+  padding-top: 70px;
+
+  text-align: left;
+}
+
+.input {
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 2px solid rgb(204, 5, 128);
+  font-size: 18px;
+  width: 85vw;
+}
+
+#rememberMe {
+  display: flex; 
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+
+#loginbutton {
+  margin-top: 50px;
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #fff;
+  
+  border-radius: 30px;
+  border: 0px;
+
+  background-color: rgb(238, 58, 86)
+}
+
+#forgot_password {
+  color: rgb(238, 58, 86);
+}
+
+#create_account {
+  display: flex; 
+  justify-content: space-between;
+  padding: 0 60px;
+  margin-top: 290px;
+}
+
+strong {
+  color: rgb(238, 58, 86);
+}
